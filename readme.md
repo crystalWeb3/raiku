@@ -1,4 +1,4 @@
-# Solana Blockchain Data Aggregator
+# Solana Blockchain Data Aggregator (Running on Rust)
 
 ## Overview
 This project is a lightweight yet powerful data aggregator designed to collect and process transfer transactions from the Solana blockchain. Instead of relying on inefficient polling, we take the smarter route—leveraging Solana’s WebSocket-based RPC API for real-time, optimized, and reliable data streaming.
