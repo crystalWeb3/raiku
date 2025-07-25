@@ -13,6 +13,8 @@ pub async fn process_transaction(text: String) {
                     return;
                 }
 
+                //No Reply
+
                 let is_sol_transfer = logs.iter().any(|log| {
                     let log_str = log.as_str().unwrap_or("");
                     log_str.contains("Transfer") && !log_str.contains("Token")
